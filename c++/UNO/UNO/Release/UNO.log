@@ -1,0 +1,64 @@
+﻿Build started 04/30/2016 6:54:30 PM.
+     1>Project "C:\Users\user\Desktop\portfolio\c++\UNO\UNO\UNO.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt botAI.cpp card.cpp deckManagement.cpp game.cpp gameBoard.cpp interface.cpp main.cpp menu.cpp player.cpp playerManagement.cpp
+         botAI.cpp
+     1>botAI.cpp(12): warning C4018: '<' : signed/unsigned mismatch
+     1>botAI.cpp(21): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>botAI.cpp(37): warning C4018: '<' : signed/unsigned mismatch
+     1>botAI.cpp(59): warning C4018: '<' : signed/unsigned mismatch
+     1>botAI.cpp(137): warning C4018: '<' : signed/unsigned mismatch
+     1>botAI.cpp(154): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+         card.cpp
+         deckManagement.cpp
+     1>deckManagement.cpp(33): warning C4244: 'initializing' : conversion from 'std::chrono::system_clock::rep' to 'unsigned int', possible loss of data
+     1>deckManagement.cpp(51): warning C4018: '<' : signed/unsigned mismatch
+         game.cpp
+         gameBoard.cpp
+     1>gameBoard.cpp(46): warning C4018: '<' : signed/unsigned mismatch
+     1>gameBoard.cpp(62): warning C4018: '<' : signed/unsigned mismatch
+     1>gameBoard.cpp(115): warning C4018: '<' : signed/unsigned mismatch
+         interface.cpp
+         main.cpp
+     1>main.cpp(22): warning C4018: '<' : signed/unsigned mismatch
+     1>main.cpp(111): warning C4018: '<' : signed/unsigned mismatch
+         menu.cpp
+     1>menu.cpp(124): warning C4018: '<' : signed/unsigned mismatch
+     1>menu.cpp(212): warning C4018: '>' : signed/unsigned mismatch
+     1>menu.cpp(217): warning C4018: '<' : signed/unsigned mismatch
+     1>menu.cpp(241): warning C4018: '<' : signed/unsigned mismatch
+         player.cpp
+     1>player.cpp(53): warning C4018: '<=' : signed/unsigned mismatch
+     1>player.cpp(73): warning C4018: '<=' : signed/unsigned mismatch
+     1>player.cpp(131): warning C4018: '>' : signed/unsigned mismatch
+     1>player.cpp(143): warning C4018: '<' : signed/unsigned mismatch
+     1>player.cpp(161): warning C4018: '<' : signed/unsigned mismatch
+         playerManagement.cpp
+     1>playerManagement.cpp(19): warning C4018: '>' : signed/unsigned mismatch
+     1>playerManagement.cpp(71): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\user\Desktop\portfolio\c++\UNO\Release\UNO.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\user\Desktop\portfolio\c++\UNO\Release\UNO.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\user\Desktop\portfolio\c++\UNO\Release\UNO.lib" /MACHINE:X86 /SAFESEH Release\botAI.obj
+         Release\card.obj
+         Release\deckManagement.obj
+         Release\game.obj
+         Release\gameBoard.obj
+         Release\interface.obj
+         Release\main.obj
+         Release\menu.obj
+         Release\player.obj
+         Release\playerManagement.obj
+         Generating code
+     1>c:\users\user\desktop\portfolio\c++\uno\uno\card.cpp(89): warning C4715: 'Card::convertToValue' : not all control paths return a value
+     1>c:\users\user\desktop\portfolio\c++\uno\uno\card.cpp(64): warning C4715: 'Card::convertToColour' : not all control paths return a value
+     1>c:\users\user\desktop\portfolio\c++\uno\uno\player.cpp(82): warning C4715: 'Player::changeName' : not all control paths return a value
+     1>c:\users\user\desktop\portfolio\c++\uno\uno\main.cpp(239): warning C4715: 'askPlayAgain' : not all control paths return a value
+     1>c:\users\user\desktop\portfolio\c++\uno\uno\botai.cpp(122): warning C4715: 'bot::pickCard' : not all control paths return a value
+     1>c:\users\user\desktop\portfolio\c++\uno\uno\card.cpp(24): warning C4715: 'Card::getColour' : not all control paths return a value
+     1>c:\users\user\desktop\portfolio\c++\uno\uno\player.cpp(64): warning C4715: 'Player::newPlayer' : not all control paths return a value
+         Finished generating code
+         UNO.vcxproj -> C:\Users\user\Desktop\portfolio\c++\UNO\Release\UNO.exe
+     1>Done Building Project "C:\Users\user\Desktop\portfolio\c++\UNO\UNO\UNO.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.61

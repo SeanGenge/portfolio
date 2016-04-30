@@ -1,0 +1,78 @@
+﻿Build started 8/06/2014 10:17:14 PM.
+     1>Project "F:\empty Space\empty Space\empty Space.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt AncientMummy.cpp Artefact.cpp BabyDragon.cpp difficulty.cpp events.cpp game.cpp graphics.cpp Human.cpp Hydra.cpp interface.cpp loadSaveGame.cpp main.cpp map.cpp menu.cpp Minotaur.cpp Monster.cpp Ogre.cpp Player.cpp playerHandling.cpp status.cpp Zombie.cpp
+         Zombie.cpp
+         status.cpp
+         playerHandling.cpp
+     1>f:\empty space\empty space\playerhandling.cpp(23): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\empty space\empty space\playerhandling.cpp(51): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\empty space\empty space\playerhandling.cpp(56): warning C4018: '<' : signed/unsigned mismatch
+         Player.cpp
+         Ogre.cpp
+         Monster.cpp
+         Minotaur.cpp
+         menu.cpp
+         map.cpp
+         main.cpp
+     1>f:\empty space\empty space\main.cpp(13): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>f:\empty space\empty space\main.cpp(283): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>f:\empty space\empty space\main.cpp(310): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\empty space\empty space\main.cpp(321): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\empty space\empty space\main.cpp(332): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\empty space\empty space\main.cpp(356): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\empty space\empty space\main.cpp(374): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\empty space\empty space\main.cpp(471): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\empty space\empty space\main.cpp(475): warning C4018: '<' : signed/unsigned mismatch
+         loadSaveGame.cpp
+     1>f:\empty space\empty space\loadsavegame.cpp(37): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\empty space\empty space\loadsavegame.cpp(57): warning C4018: '<' : signed/unsigned mismatch
+         interface.cpp
+         Hydra.cpp
+         Human.cpp
+         graphics.cpp
+     1>f:\empty space\empty space\graphics.cpp(37): warning C4018: '<' : signed/unsigned mismatch
+     1>f:\empty space\empty space\graphics.cpp(143): warning C4018: '<' : signed/unsigned mismatch
+         game.cpp
+         events.cpp
+     1>f:\empty space\empty space\events.cpp(166): warning C4018: '<' : signed/unsigned mismatch
+         difficulty.cpp
+         BabyDragon.cpp
+         Artefact.cpp
+         Generating Code...
+     1>f:\empty space\empty space\artefact.cpp(64): warning C4715: 'Artefact::getSType' : not all control paths return a value
+     1>f:\empty space\empty space\artefact.cpp(52): warning C4715: 'Artefact::getSType' : not all control paths return a value
+     1>f:\empty space\empty space\artefact.cpp(76): warning C4715: 'Artefact::changeIntToType' : not all control paths return a value
+     1>f:\empty space\empty space\difficulty.cpp(40): warning C4715: 'mapIntToDifficulty' : not all control paths return a value
+     1>f:\empty space\empty space\difficulty.cpp(30): warning C4715: 'getDifficulty' : not all control paths return a value
+         Compiling...
+         AncientMummy.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\empty Space\Debug\empty Space.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\empty Space\Debug\empty Space.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\empty Space\Debug\empty Space.lib" /MACHINE:X86 Debug\AncientMummy.obj
+         Debug\Artefact.obj
+         Debug\BabyDragon.obj
+         Debug\difficulty.obj
+         Debug\events.obj
+         Debug\game.obj
+         Debug\graphics.obj
+         Debug\Human.obj
+         Debug\Hydra.obj
+         Debug\interface.obj
+         Debug\loadSaveGame.obj
+         Debug\main.obj
+         Debug\map.obj
+         Debug\menu.obj
+         Debug\Minotaur.obj
+         Debug\Monster.obj
+         Debug\Ogre.obj
+         Debug\Player.obj
+         Debug\playerHandling.obj
+         Debug\status.obj
+         Debug\Zombie.obj
+         empty Space.vcxproj -> F:\empty Space\Debug\empty Space.exe
+     1>Done Building Project "F:\empty Space\empty Space\empty Space.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:14.86
