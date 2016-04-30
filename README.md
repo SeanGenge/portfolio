@@ -1,3 +1,3 @@
 # portfolio
-Programmer - Sean Genge
-# This is a portfolio showcasing some of my work
+<p>Programmer - Sean Genge</p>
+This is a portfolio showcasing some of my work
