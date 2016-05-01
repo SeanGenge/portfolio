@@ -1,0 +1,349 @@
+﻿Build started 05/01/2016 8:18:19 PM.
+     1>Project "C:\Users\user\Desktop\portfolio\c++\Glitch - 3D abstract game\Glitch\Glitch.vcxproj" on node 2 (Build target(s)).
+     1>FxCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\fxc.exe /nologo /E"main" /T ps_4_0 /Fo "C:\Users\user\Desktop\portfolio\c++\Glitch - 3D abstract game\Debug\FlashlightPS.cso" /Od /Zi Assets\Shaders\FlashlightPS.hlsl 
+         compilation object save succeeded; see C:\Users\user\Desktop\portfolio\c++\Glitch - 3D abstract game\Debug\FlashlightPS.cso
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\fxc.exe /nologo /E"main" /T vs_4_0_level_9_1 /Fo "C:\Users\user\Desktop\portfolio\c++\Glitch - 3D abstract game\Debug\FlashlightVS.cso" /Od /Zi Assets\Shaders\FlashlightVS.hlsl 
+         compilation object save succeeded; see C:\Users\user\Desktop\portfolio\c++\Glitch - 3D abstract game\Debug\FlashlightVS.cso
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt BlueEnemy.cpp Bullet.cpp Button.cpp Camera.cpp Collisions.cpp Direct3D.cpp Enemy.cpp EnemyFactory.cpp FlashlightShader.cpp Game.cpp GameGUI.cpp GameObject.cpp GameOverState.cpp GameState.cpp GreenEnemy.cpp Health.cpp InputController.cpp Level.cpp LevelChooseState.cpp Spotlight.cpp Main.cpp MainMenuState.cpp Mesh.cpp MeshManager.cpp PauseState.cpp Player.cpp PurpleEnemy.cpp RedEnemy.cpp SceneLighting.cpp Shader.cpp Skybox.cpp Sound.cpp SoundManager.cpp State.cpp StateManager.cpp Texture.cpp TexturedShader.cpp TextureManager.cpp UpgradeState.cpp WaveFile.cpp Window.cpp
+         Window.cpp
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\soundpool.h(19): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\collisions.h(13): warning C4005: 'min' : macro redefinition
+                 c:\program files (x86)\windows kits\8.1\include\shared\minwindef.h(197) : see previous definition of 'min'
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\collisions.h(14): warning C4005: 'max' : macro redefinition
+                 c:\program files (x86)\windows kits\8.1\include\shared\minwindef.h(193) : see previous definition of 'max'
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\bullet.h(48): warning C4244: 'return' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\player.h(135): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+         WaveFile.cpp
+         UpgradeState.cpp
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\soundpool.h(19): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\collisions.h(13): warning C4005: 'min' : macro redefinition
+                 c:\program files (x86)\windows kits\8.1\include\shared\minwindef.h(197) : see previous definition of 'min'
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\collisions.h(14): warning C4005: 'max' : macro redefinition
+                 c:\program files (x86)\windows kits\8.1\include\shared\minwindef.h(193) : see previous definition of 'max'
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\bullet.h(48): warning C4244: 'return' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\player.h(135): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\upgradestate.cpp(17): warning C4305: '=' : truncation from 'double' to 'float'
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\upgradestate.cpp(26): warning C4305: '=' : truncation from 'double' to 'float'
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\upgradestate.cpp(181): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\upgradestate.cpp(182): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\upgradestate.cpp(183): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\upgradestate.cpp(186): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\upgradestate.cpp(187): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\upgradestate.cpp(196): warning C4244: '+=' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\upgradestate.cpp(368): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\upgradestate.cpp(372): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\upgradestate.cpp(377): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\upgradestate.cpp(381): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\upgradestate.cpp(389): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\upgradestate.cpp(393): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\upgradestate.cpp(398): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\upgradestate.cpp(402): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\upgradestate.cpp(407): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\upgradestate.cpp(411): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\upgradestate.cpp(443): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\upgradestate.cpp(447): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\upgradestate.cpp(452): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\upgradestate.cpp(456): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\upgradestate.cpp(464): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\upgradestate.cpp(468): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\upgradestate.cpp(473): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\upgradestate.cpp(477): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\upgradestate.cpp(482): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\upgradestate.cpp(487): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\upgradestate.cpp(510): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\upgradestate.cpp(511): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\upgradestate.cpp(512): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\upgradestate.cpp(513): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\upgradestate.cpp(514): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\upgradestate.cpp(515): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+         TextureManager.cpp
+         TexturedShader.cpp
+         Texture.cpp
+         StateManager.cpp
+         State.cpp
+         SoundManager.cpp
+         Sound.cpp
+         Skybox.cpp
+         Shader.cpp
+         SceneLighting.cpp
+         RedEnemy.cpp
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\soundpool.h(19): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\collisions.h(13): warning C4005: 'min' : macro redefinition
+                 c:\program files (x86)\windows kits\8.1\include\shared\minwindef.h(197) : see previous definition of 'min'
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\collisions.h(14): warning C4005: 'max' : macro redefinition
+                 c:\program files (x86)\windows kits\8.1\include\shared\minwindef.h(193) : see previous definition of 'max'
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\bullet.h(48): warning C4244: 'return' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\player.h(135): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\redenemy.cpp(11): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\redenemy.cpp(12): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\redenemy.cpp(13): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\redenemy.cpp(17): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\redenemy.cpp(21): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\redenemy.cpp(41): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\redenemy.cpp(47): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\redenemy.cpp(54): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\redenemy.cpp(61): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\redenemy.cpp(102): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+         PurpleEnemy.cpp
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\soundpool.h(19): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\collisions.h(13): warning C4005: 'min' : macro redefinition
+                 c:\program files (x86)\windows kits\8.1\include\shared\minwindef.h(197) : see previous definition of 'min'
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\collisions.h(14): warning C4005: 'max' : macro redefinition
+                 c:\program files (x86)\windows kits\8.1\include\shared\minwindef.h(193) : see previous definition of 'max'
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\bullet.h(48): warning C4244: 'return' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\player.h(135): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\purpleenemy.cpp(11): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\purpleenemy.cpp(17): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\purpleenemy.cpp(20): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\purpleenemy.cpp(25): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\purpleenemy.cpp(28): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\purpleenemy.cpp(85): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\purpleenemy.cpp(134): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+         Player.cpp
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\soundpool.h(19): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\collisions.h(13): warning C4005: 'min' : macro redefinition
+                 c:\program files (x86)\windows kits\8.1\include\shared\minwindef.h(197) : see previous definition of 'min'
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\collisions.h(14): warning C4005: 'max' : macro redefinition
+                 c:\program files (x86)\windows kits\8.1\include\shared\minwindef.h(193) : see previous definition of 'max'
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\bullet.h(48): warning C4244: 'return' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\player.h(135): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\player.cpp(47): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\player.cpp(48): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\player.cpp(165): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\player.cpp(166): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\player.cpp(315): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\objectpool.h(19): warning C4018: '<' : signed/unsigned mismatch
+                 c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\objectpool.h(18) : while compiling class template member function 'void ObjectPool<Bullet>::initialize(void)'
+                 c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\player.cpp(11) : see reference to class template instantiation 'ObjectPool<Bullet>' being compiled
+         PauseState.cpp
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\pausestate.cpp(22): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\pausestate.cpp(27): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+         MeshManager.cpp
+         Mesh.cpp
+         MainMenuState.cpp
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\soundpool.h(19): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\mainmenustate.cpp(23): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\mainmenustate.cpp(28): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+         Generating Code...
+         Compiling...
+         Main.cpp
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\soundpool.h(19): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\collisions.h(13): warning C4005: 'min' : macro redefinition
+                 c:\program files (x86)\windows kits\8.1\include\shared\minwindef.h(197) : see previous definition of 'min'
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\collisions.h(14): warning C4005: 'max' : macro redefinition
+                 c:\program files (x86)\windows kits\8.1\include\shared\minwindef.h(193) : see previous definition of 'max'
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\bullet.h(48): warning C4244: 'return' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\player.h(135): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+         Spotlight.cpp
+         LevelChooseState.cpp
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\soundpool.h(19): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\collisions.h(13): warning C4005: 'min' : macro redefinition
+                 c:\program files (x86)\windows kits\8.1\include\shared\minwindef.h(197) : see previous definition of 'min'
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\collisions.h(14): warning C4005: 'max' : macro redefinition
+                 c:\program files (x86)\windows kits\8.1\include\shared\minwindef.h(193) : see previous definition of 'max'
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\bullet.h(48): warning C4244: 'return' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\player.h(135): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\levelchoosestate.cpp(43): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\levelchoosestate.cpp(49): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\levelchoosestate.cpp(55): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\levelchoosestate.cpp(60): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+         Level.cpp
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\collisions.h(13): warning C4005: 'min' : macro redefinition
+                 c:\program files (x86)\windows kits\8.1\include\shared\minwindef.h(197) : see previous definition of 'min'
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\collisions.h(14): warning C4005: 'max' : macro redefinition
+                 c:\program files (x86)\windows kits\8.1\include\shared\minwindef.h(193) : see previous definition of 'max'
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\level.cpp(14): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+         InputController.cpp
+         Health.cpp
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\soundpool.h(19): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\collisions.h(13): warning C4005: 'min' : macro redefinition
+                 c:\program files (x86)\windows kits\8.1\include\shared\minwindef.h(197) : see previous definition of 'min'
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\collisions.h(14): warning C4005: 'max' : macro redefinition
+                 c:\program files (x86)\windows kits\8.1\include\shared\minwindef.h(193) : see previous definition of 'max'
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\bullet.h(48): warning C4244: 'return' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\player.h(135): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+         GreenEnemy.cpp
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\soundpool.h(19): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\collisions.h(13): warning C4005: 'min' : macro redefinition
+                 c:\program files (x86)\windows kits\8.1\include\shared\minwindef.h(197) : see previous definition of 'min'
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\collisions.h(14): warning C4005: 'max' : macro redefinition
+                 c:\program files (x86)\windows kits\8.1\include\shared\minwindef.h(193) : see previous definition of 'max'
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\bullet.h(48): warning C4244: 'return' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\player.h(135): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\greenenemy.cpp(12): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\greenenemy.cpp(17): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\greenenemy.cpp(23): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\greenenemy.cpp(78): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+         GameState.cpp
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\soundpool.h(19): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\collisions.h(13): warning C4005: 'min' : macro redefinition
+                 c:\program files (x86)\windows kits\8.1\include\shared\minwindef.h(197) : see previous definition of 'min'
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\collisions.h(14): warning C4005: 'max' : macro redefinition
+                 c:\program files (x86)\windows kits\8.1\include\shared\minwindef.h(193) : see previous definition of 'max'
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\bullet.h(48): warning C4244: 'return' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\player.h(135): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\gamestate.cpp(27): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\gamestate.cpp(41): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\gamestate.cpp(234): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\gamestate.cpp(301): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\gamestate.cpp(339): warning C4305: '-=' : truncation from 'double' to 'float'
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\gamestate.cpp(367): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\gamestate.cpp(437): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\gamestate.cpp(438): warning C4244: '+=' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\gamestate.cpp(448): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\gamestate.cpp(452): warning C4018: '<' : signed/unsigned mismatch
+         GameOverState.cpp
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\gameoverstate.cpp(25): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\gameoverstate.cpp(30): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+         GameObject.cpp
+         GameGUI.cpp
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\soundpool.h(19): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\collisions.h(13): warning C4005: 'min' : macro redefinition
+                 c:\program files (x86)\windows kits\8.1\include\shared\minwindef.h(197) : see previous definition of 'min'
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\collisions.h(14): warning C4005: 'max' : macro redefinition
+                 c:\program files (x86)\windows kits\8.1\include\shared\minwindef.h(193) : see previous definition of 'max'
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\bullet.h(48): warning C4244: 'return' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\player.h(135): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\gamegui.cpp(57): warning C4244: '*=' : conversion from 'float' to 'LONG', possible loss of data
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\gamegui.cpp(88): warning C4244: '=' : conversion from 'float' to 'LONG', possible loss of data
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\gamegui.cpp(89): warning C4244: '=' : conversion from 'float' to 'LONG', possible loss of data
+         Game.cpp
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\soundpool.h(19): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\collisions.h(13): warning C4005: 'min' : macro redefinition
+                 c:\program files (x86)\windows kits\8.1\include\shared\minwindef.h(197) : see previous definition of 'min'
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\collisions.h(14): warning C4005: 'max' : macro redefinition
+                 c:\program files (x86)\windows kits\8.1\include\shared\minwindef.h(193) : see previous definition of 'max'
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\bullet.h(48): warning C4244: 'return' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\player.h(135): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\game.cpp(36): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\game.cpp(39): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\game.cpp(41): warning C4305: 'argument' : truncation from 'double' to 'float'
+         FlashlightShader.cpp
+         EnemyFactory.cpp
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\soundpool.h(19): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\collisions.h(13): warning C4005: 'min' : macro redefinition
+                 c:\program files (x86)\windows kits\8.1\include\shared\minwindef.h(197) : see previous definition of 'min'
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\collisions.h(14): warning C4005: 'max' : macro redefinition
+                 c:\program files (x86)\windows kits\8.1\include\shared\minwindef.h(193) : see previous definition of 'max'
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\bullet.h(48): warning C4244: 'return' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\player.h(135): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\enemyfactory.cpp(16): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\enemyfactory.cpp(55): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\enemyfactory.cpp(58): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\enemyfactory.cpp(65): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\enemyfactory.cpp(65): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\enemyfactory.cpp(69): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\enemyfactory.cpp(69): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\enemyfactory.cpp(77): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\enemyfactory.cpp(81): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\enemyfactory.cpp(81): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\enemyfactory.cpp(89): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\enemyfactory.cpp(89): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\enemyfactory.cpp(93): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\enemyfactory.cpp(93): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\enemyfactory.cpp(101): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\enemyfactory.cpp(101): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\enemyfactory.cpp(105): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+         Enemy.cpp
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\soundpool.h(19): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\collisions.h(13): warning C4005: 'min' : macro redefinition
+                 c:\program files (x86)\windows kits\8.1\include\shared\minwindef.h(197) : see previous definition of 'min'
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\collisions.h(14): warning C4005: 'max' : macro redefinition
+                 c:\program files (x86)\windows kits\8.1\include\shared\minwindef.h(193) : see previous definition of 'max'
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\bullet.h(48): warning C4244: 'return' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\player.h(135): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\enemy.cpp(54): warning C4244: '-=' : conversion from 'float' to 'int', possible loss of data
+         Direct3D.cpp
+         Collisions.cpp
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\collisions.cpp(169): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\collisions.cpp(200): warning C4056: overflow in floating-point constant arithmetic
+         Camera.cpp
+         Button.cpp
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\button.cpp(36): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+         Bullet.cpp
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\collisions.h(13): warning C4005: 'min' : macro redefinition
+                 c:\program files (x86)\windows kits\8.1\include\shared\minwindef.h(197) : see previous definition of 'min'
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\collisions.h(14): warning C4005: 'max' : macro redefinition
+                 c:\program files (x86)\windows kits\8.1\include\shared\minwindef.h(193) : see previous definition of 'max'
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\soundpool.h(19): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\player.h(135): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\bullet.h(48): warning C4244: 'return' : conversion from 'int' to 'float', possible loss of data
+         Generating Code...
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\collisions.cpp(200): warning C4756: overflow in constant arithmetic
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\collisions.cpp(201): warning C4756: overflow in constant arithmetic
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\collisions.cpp(200): warning C4756: overflow in constant arithmetic
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\collisions.cpp(201): warning C4756: overflow in constant arithmetic
+         Compiling...
+         BlueEnemy.cpp
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\soundpool.h(19): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\collisions.h(13): warning C4005: 'min' : macro redefinition
+                 c:\program files (x86)\windows kits\8.1\include\shared\minwindef.h(197) : see previous definition of 'min'
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\collisions.h(14): warning C4005: 'max' : macro redefinition
+                 c:\program files (x86)\windows kits\8.1\include\shared\minwindef.h(193) : see previous definition of 'max'
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\bullet.h(48): warning C4244: 'return' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\player.h(135): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\blueenemy.cpp(23): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\blueenemy.cpp(65): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\blueenemy.cpp(133): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\objectpool.h(19): warning C4018: '<' : signed/unsigned mismatch
+                 c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\objectpool.h(18) : while compiling class template member function 'void ObjectPool<Bullet>::initialize(void)'
+                 c:\users\user\desktop\portfolio\c++\glitch - 3d abstract game\glitch\blueenemy.cpp(25) : see reference to class template instantiation 'ObjectPool<Bullet>' being compiled
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\user\Desktop\portfolio\c++\Glitch - 3D abstract game\Debug\Glitch.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\user\Desktop\portfolio\c++\Glitch - 3D abstract game\Debug\Glitch.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\user\Desktop\portfolio\c++\Glitch - 3D abstract game\Debug\Glitch.lib" /MACHINE:X86 Debug\BlueEnemy.obj
+         Debug\Bullet.obj
+         Debug\Button.obj
+         Debug\Camera.obj
+         Debug\Collisions.obj
+         Debug\Direct3D.obj
+         Debug\Enemy.obj
+         Debug\EnemyFactory.obj
+         Debug\FlashlightShader.obj
+         Debug\Game.obj
+         Debug\GameGUI.obj
+         Debug\GameObject.obj
+         Debug\GameOverState.obj
+         Debug\GameState.obj
+         Debug\GreenEnemy.obj
+         Debug\Health.obj
+         Debug\InputController.obj
+         Debug\Level.obj
+         Debug\LevelChooseState.obj
+         Debug\Spotlight.obj
+         Debug\Main.obj
+         Debug\MainMenuState.obj
+         Debug\Mesh.obj
+         Debug\MeshManager.obj
+         Debug\PauseState.obj
+         Debug\Player.obj
+         Debug\PurpleEnemy.obj
+         Debug\RedEnemy.obj
+         Debug\SceneLighting.obj
+         Debug\Shader.obj
+         Debug\Skybox.obj
+         Debug\Sound.obj
+         Debug\SoundManager.obj
+         Debug\State.obj
+         Debug\StateManager.obj
+         Debug\Texture.obj
+         Debug\TexturedShader.obj
+         Debug\TextureManager.obj
+         Debug\UpgradeState.obj
+         Debug\WaveFile.obj
+         Debug\Window.obj
+     1>DirectXTK.lib(CommonStates.obj) : warning LNK4099: PDB 'directxtk.pdb' was not found with 'DirectXTK.lib(CommonStates.obj)' or at 'C:\Users\user\Desktop\portfolio\c++\Glitch - 3D abstract game\Debug\directxtk.pdb'; linking object as if no debug info
+     1>DirectXTK.lib(BinaryReader.obj) : warning LNK4099: PDB 'directxtk.pdb' was not found with 'DirectXTK.lib(BinaryReader.obj)' or at 'C:\Users\user\Desktop\portfolio\c++\Glitch - 3D abstract game\Debug\directxtk.pdb'; linking object as if no debug info
+     1>DirectXTK.lib(pch.obj) : warning LNK4099: PDB 'directxtk.pdb' was not found with 'DirectXTK.lib(pch.obj)' or at 'C:\Users\user\Desktop\portfolio\c++\Glitch - 3D abstract game\Debug\directxtk.pdb'; linking object as if no debug info
+     1>DirectXTK.lib(SimpleMath.obj) : warning LNK4099: PDB 'directxtk.pdb' was not found with 'DirectXTK.lib(SimpleMath.obj)' or at 'C:\Users\user\Desktop\portfolio\c++\Glitch - 3D abstract game\Debug\directxtk.pdb'; linking object as if no debug info
+     1>DirectXTK.lib(SpriteBatch.obj) : warning LNK4099: PDB 'directxtk.pdb' was not found with 'DirectXTK.lib(SpriteBatch.obj)' or at 'C:\Users\user\Desktop\portfolio\c++\Glitch - 3D abstract game\Debug\directxtk.pdb'; linking object as if no debug info
+     1>DirectXTK.lib(SpriteFont.obj) : warning LNK4099: PDB 'directxtk.pdb' was not found with 'DirectXTK.lib(SpriteFont.obj)' or at 'C:\Users\user\Desktop\portfolio\c++\Glitch - 3D abstract game\Debug\directxtk.pdb'; linking object as if no debug info
+     1>DirectXTK.lib(VertexTypes.obj) : warning LNK4099: PDB 'directxtk.pdb' was not found with 'DirectXTK.lib(VertexTypes.obj)' or at 'C:\Users\user\Desktop\portfolio\c++\Glitch - 3D abstract game\Debug\directxtk.pdb'; linking object as if no debug info
+     1>DirectXTK.lib(WICTextureLoader.obj) : warning LNK4099: PDB 'directxtk.pdb' was not found with 'DirectXTK.lib(WICTextureLoader.obj)' or at 'C:\Users\user\Desktop\portfolio\c++\Glitch - 3D abstract game\Debug\directxtk.pdb'; linking object as if no debug info
+         Glitch.vcxproj -> C:\Users\user\Desktop\portfolio\c++\Glitch - 3D abstract game\Debug\Glitch.exe
+     1>Done Building Project "C:\Users\user\Desktop\portfolio\c++\Glitch - 3D abstract game\Glitch\Glitch.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:57.69

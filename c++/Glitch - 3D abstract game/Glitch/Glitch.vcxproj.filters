@@ -1,0 +1,400 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="DirectXTK">
+      <UniqueIdentifier>{c96741ae-3f60-45b1-83c0-8655bd8624e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Main">
+      <UniqueIdentifier>{1d8693be-a183-46b4-a6d3-2ed0e535fbb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game objects">
+      <UniqueIdentifier>{ff23bab0-6888-4a38-848b-0b0738027e64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game objects\Enemies">
+      <UniqueIdentifier>{d72c2f86-a0f9-44e6-a2ec-c10eb54904c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game objects\Factories">
+      <UniqueIdentifier>{cd6aa657-c96e-43cb-81ee-fd2fdc32e205}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\States">
+      <UniqueIdentifier>{70693afc-63d7-43e2-8c95-0c0dafa59c3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\States\Game states">
+      <UniqueIdentifier>{9fed6451-7653-48ac-9c38-201bd987df1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Main">
+      <UniqueIdentifier>{c89a1ccf-8507-4f08-99ac-f91495367936}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\States">
+      <UniqueIdentifier>{d4edd447-f8f3-4ab6-ae2b-89bedae20140}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\States\Game states">
+      <UniqueIdentifier>{5ea42438-7f7e-4b0c-8f3d-8ab97ad85a91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game objects">
+      <UniqueIdentifier>{ac40c10d-95b3-4016-821c-b6376129e124}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game objects\Enemies">
+      <UniqueIdentifier>{ff5f3dca-b3b1-4e3f-9eab-5160c61c955d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game objects\Factories">
+      <UniqueIdentifier>{edef1a4e-1d3f-4e5d-8d02-7935609a2a85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GUI">
+      <UniqueIdentifier>{fb51f26f-8f59-4883-9b0e-621ac76f7aac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GUI">
+      <UniqueIdentifier>{5f9cbba2-5b75-4ab2-887c-7210b400f567}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Main\Sound">
+      <UniqueIdentifier>{dec2a639-71d6-44f2-a2d9-9e7a73ff5552}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Main\Sound">
+      <UniqueIdentifier>{208cbac1-61dd-44aa-b988-bdc3953c592c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Memory pool">
+      <UniqueIdentifier>{6368b553-2e76-4b56-9121-3a185835e926}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Main\Lighting">
+      <UniqueIdentifier>{e1030051-2cf4-4680-a006-5c3e341f9096}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Main\Lighting">
+      <UniqueIdentifier>{94a19983-2a7f-4c94-b378-a32bd9078fd1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Main\Shaders">
+      <UniqueIdentifier>{03c3a319-617c-4db8-9b01-4a2c192d610f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Main\Shaders">
+      <UniqueIdentifier>{b728eb0c-c91a-48c7-80d8-fc2fd07a8e97}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DirectXTK\CommonStates.h">
+      <Filter>DirectXTK</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectXTK\SimpleMath.h">
+      <Filter>DirectXTK</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectXTK\SpriteBatch.h">
+      <Filter>DirectXTK</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectXTK\SpriteFont.h">
+      <Filter>DirectXTK</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectXTK\WICTextureLoader.h">
+      <Filter>DirectXTK</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BlueEnemy.h">
+      <Filter>Header Files\Game objects\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>Header Files\Game objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>Header Files\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Collisions.h">
+      <Filter>Header Files\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Direct3D.h">
+      <Filter>Header Files\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Header Files\Game objects\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyFactory.h">
+      <Filter>Header Files\Game objects\Factories</Filter>
+    </ClInclude>
+    <ClInclude Include="Factory.h">
+      <Filter>Header Files\Game objects\Factories</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Header Files\Game objects</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOverState.h">
+      <Filter>Header Files\States\Game states</Filter>
+    </ClInclude>
+    <ClInclude Include="GameState.h">
+      <Filter>Header Files\States\Game states</Filter>
+    </ClInclude>
+    <ClInclude Include="GreenEnemy.h">
+      <Filter>Header Files\Game objects\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="InputController.h">
+      <Filter>Header Files\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Header Files\Game objects</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshManager.h">
+      <Filter>Header Files\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Header Files\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Header Files\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureManager.h">
+      <Filter>Header Files\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Window.h">
+      <Filter>Header Files\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Level.h">
+      <Filter>Header Files\Game objects</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenuState.h">
+      <Filter>Header Files\States\Game states</Filter>
+    </ClInclude>
+    <ClInclude Include="Inputable.h">
+      <Filter>Header Files\States</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderable.h">
+      <Filter>Header Files\States</Filter>
+    </ClInclude>
+    <ClInclude Include="Updateable.h">
+      <Filter>Header Files\States</Filter>
+    </ClInclude>
+    <ClInclude Include="PauseState.h">
+      <Filter>Header Files\States\Game states</Filter>
+    </ClInclude>
+    <ClInclude Include="PurpleEnemy.h">
+      <Filter>Header Files\Game objects\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="RedEnemy.h">
+      <Filter>Header Files\Game objects\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Skybox.h">
+      <Filter>Header Files\Game objects</Filter>
+    </ClInclude>
+    <ClInclude Include="State.h">
+      <Filter>Header Files\States</Filter>
+    </ClInclude>
+    <ClInclude Include="StateManager.h">
+      <Filter>Header Files\States</Filter>
+    </ClInclude>
+    <ClInclude Include="GameGUI.h">
+      <Filter>Header Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound.h">
+      <Filter>Header Files\Main\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundManager.h">
+      <Filter>Header Files\Main\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="WaveFile.h">
+      <Filter>DirectXTK</Filter>
+    </ClInclude>
+    <ClInclude Include="Util.h">
+      <Filter>DirectXTK</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryPool.h">
+      <Filter>Header Files\Memory pool</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectPool.h">
+      <Filter>Header Files\Memory pool</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundPool.h">
+      <Filter>Header Files\Memory pool</Filter>
+    </ClInclude>
+    <ClInclude Include="UpgradeState.h">
+      <Filter>Header Files\States\Game states</Filter>
+    </ClInclude>
+    <ClInclude Include="Health.h">
+      <Filter>Header Files\Game objects</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelChooseState.h">
+      <Filter>Header Files\States\Game states</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneLighting.h">
+      <Filter>Header Files\Main\Lighting</Filter>
+    </ClInclude>
+    <ClInclude Include="Spotlight.h">
+      <Filter>Header Files\Main\Lighting</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>Header Files\Main\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="TexturedShader.h">
+      <Filter>Header Files\Main\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="FlashlightShader.h">
+      <Filter>Header Files\Main\Shaders</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DirectXTK\SimpleMath.inl">
+      <Filter>DirectXTK</Filter>
+    </None>
+    <None Include="Assets\Shaders\PhongPixel.ps">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Assets\Shaders\PhongVertex.vs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Assets\Shaders\PixelShader.ps">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Assets\Shaders\TexturedPixelShader.ps">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Assets\Shaders\TexturedSkyboxPixelShader.ps">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Assets\Shaders\VertexShader.vs">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>Source Files\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Collisions.cpp">
+      <Filter>Source Files\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Direct3D.cpp">
+      <Filter>Source Files\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="InputController.cpp">
+      <Filter>Source Files\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>Source Files\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshManager.cpp">
+      <Filter>Source Files\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Source Files\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureManager.cpp">
+      <Filter>Source Files\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>Source Files\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="BlueEnemy.cpp">
+      <Filter>Source Files\Game objects\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Source Files\Game objects\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="GreenEnemy.cpp">
+      <Filter>Source Files\Game objects\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="PurpleEnemy.cpp">
+      <Filter>Source Files\Game objects\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="RedEnemy.cpp">
+      <Filter>Source Files\Game objects\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyFactory.cpp">
+      <Filter>Source Files\Game objects\Factories</Filter>
+    </ClCompile>
+    <ClCompile Include="GameOverState.cpp">
+      <Filter>Source Files\States\Game states</Filter>
+    </ClCompile>
+    <ClCompile Include="GameState.cpp">
+      <Filter>Source Files\States\Game states</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenuState.cpp">
+      <Filter>Source Files\States\Game states</Filter>
+    </ClCompile>
+    <ClCompile Include="PauseState.cpp">
+      <Filter>Source Files\States\Game states</Filter>
+    </ClCompile>
+    <ClCompile Include="State.cpp">
+      <Filter>Source Files\States</Filter>
+    </ClCompile>
+    <ClCompile Include="StateManager.cpp">
+      <Filter>Source Files\States</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>Source Files\Game objects</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Source Files\Game objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Level.cpp">
+      <Filter>Source Files\Game objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files\Game objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Skybox.cpp">
+      <Filter>Source Files\Game objects</Filter>
+    </ClCompile>
+    <ClCompile Include="GameGUI.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound.cpp">
+      <Filter>Source Files\Main\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundManager.cpp">
+      <Filter>Source Files\Main\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="WaveFile.cpp">
+      <Filter>DirectXTK</Filter>
+    </ClCompile>
+    <ClCompile Include="UpgradeState.cpp">
+      <Filter>Source Files\States\Game states</Filter>
+    </ClCompile>
+    <ClCompile Include="Health.cpp">
+      <Filter>Source Files\Game objects</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelChooseState.cpp">
+      <Filter>Source Files\States\Game states</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneLighting.cpp">
+      <Filter>Source Files\Main\Lighting</Filter>
+    </ClCompile>
+    <ClCompile Include="Spotlight.cpp">
+      <Filter>Source Files\Main\Lighting</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>Source Files\Main\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="TexturedShader.cpp">
+      <Filter>Source Files\Main\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="FlashlightShader.cpp">
+      <Filter>Source Files\Main\Shaders</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="Assets\Shaders\FlashlightPS.hlsl">
+      <Filter>Resource Files</Filter>
+    </FxCompile>
+    <FxCompile Include="Assets\Shaders\FlashlightVS.hlsl">
+      <Filter>Resource Files</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>
